@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    hikari:
+      connection-timeout: 2000
+      maximum-pool-size: 5
+    url: jdbc:postgresql://localhost:5432/sprangdemo
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
